@@ -75,6 +75,7 @@ img{
 .introducao-bg{
     background-color: #000000;
     color: #ffffff;
+    box-shadow: inset 0 -120px #ffffff;
 }
 
 .introducao{
@@ -91,7 +92,7 @@ img{
 
 .introducao-conteudo{
     align-self: end;
-    padding-bottom: 80px;
+    padding-bottom: 200px;
 }
 
 .introducao h1{
@@ -127,6 +128,13 @@ img{
 .introducao a:hover{
     background: linear-gradient(#ffb60d,#e59317);;
 }
+
+.introducao img{
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
 
 @media(max-width:800px){
     .header-menu{
