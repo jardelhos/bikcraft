@@ -8,6 +8,7 @@
 @import "./utilidades/tipografia.css";
 @import "./utilidades/cores.css";
 @import "./utilidades/formulario.css";
+@import "./utilidades/animacao.css";
 
 @import "./bicicletas/bicicleta-lista.css";
 @import "./bicicleta/bicicleta.css";
@@ -31,3 +32,4 @@
 @import "./contato/loja.css";
 
 @import "./orcamento/orcamento.css";
+
